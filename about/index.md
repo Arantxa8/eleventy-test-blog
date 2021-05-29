@@ -7,40 +7,5 @@ eleventyNavigation:
   order: 3
 ---
 <div class="container">
-<div class="row">
-<div class="col">
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum blandit bibendum suscipit. Vestibulum venenatis velit nulla, id pharetra quam consectetur a. Suspendisse mattis nisi sed imperdiet lacinia. Pellentesque velit felis, eleifend ut tempus eu, porta in erat. Aenean euismod ac sapien eget varius. Donec a nunc eget ex interdum bibendum. Sed vestibulum, sapien sit amet pharetra finibus, dolor risus consectetur velit, eget sollicitudin lectus lectus eget sapien. Phasellus lacus purus, tempus et neque auctor, placerat bibendum urna. Maecenas pellentesque, purus malesuada tristique ullamcorper, ipsum enim rhoncus justo, non egestas libero leo rhoncus lorem. Nam posuere sapien metus, eu convallis odio rutrum eget. Donec tempus odio quis rhoncus cursus. Phasellus enim metus, ultrices vitae euismod vitae, vestibulum bibendum ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent et arcu lacinia, convallis ligula et, dapibus lectus.
-<div>
-<div class="col">
-<br>
-<hr>
-<h3>FORMS</h3>
-
-<h5>Contact Form</h5>
-
-<form name="contact" method="POST" data-netlify="true">
-  <div class="form-group">
-    <label for="name1" class="w-100">Your name
-    <input type="text" class="form-control" id="name1" aria-describedby="nameHelp" name= "name" placeholder="Enter name" required></label>
-  </div>
-  <div class="form-group">
-    <label for="email1" class="w-100">Email address
-    <input type="email" name="email" class="form-control" id="email1" aria-describedby="emailHelp" placeholder="Enter email" required></label>
-  </div>
-  <div class="form-group">
-    <label for="tel1" class="w-100">Phone
-    <input type="tel" name="phone" class="form-control" id="tel1" placeholder="Phone" max="11"></label>
-  </div>
-  <div class="form-group">
-    <label for="message1" class="w-100">Message
-    <textarea name="message" type="text" class="form-control" id="message1" rows="3" maxlenght="50"></textarea></label>
-  </div>
-  <div class="form-check">
-    <label class="w-100" for="exampleCheck1">Agree to send this data? Check the box<input type="checkbox" class="form-check-input d-flex" id="exampleCheck1" required></label>
-  </div>
-  <br>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
-<div>
-<div>
 <div>
