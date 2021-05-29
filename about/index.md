@@ -21,22 +21,22 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum blandit bibe
 <form name="contact" method="POST" data-netlify="true">
   <div class="form-group">
     <label for="name1">Your name</label>
-    <input type="text" class="form-control" id="name1" aria-describedby="nameHelp" placeholder="Enter name">
+    <input type="text" class="form-control" id="name1" aria-describedby="nameHelp" name= "name" placeholder="Enter name" required>
   </div>
   <div class="form-group">
     <label for="email1">Email address</label>
-    <input type="email" class="form-control" id="email1" aria-describedby="emailHelp" placeholder="Enter email">
+    <input type="email" name="email" class="form-control" id="email1" aria-describedby="emailHelp" placeholder="Enter email" required>
   </div>
   <div class="form-group">
     <label for="tel1">Phone</label>
-    <input type="tel" class="form-control" id="tel1" placeholder="Phone">
+    <input type="tel" name="phone" class="form-control" id="tel1" placeholder="Phone" max="11">
   </div>
   <div class="form-group">
     <label for="message1">Message</label>
-    <textarea type="text" class="form-control" id="message1" rows="3"></textarea>
+    <textarea name="message" type="text" class="form-control" id="message1" rows="3" maxlenght="50"></textarea>
   </div>
   <div class="form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
     <label class="form-check-label" for="exampleCheck1">Check if you are agree to send this data</label>
   </div>
   <br>
