@@ -8,24 +8,24 @@ eleventyNavigation:
 ---
 
 <br><br>
-
+<div class="container">
 <h4>Contact Form</h4><br>
 
 <form name="contact" method="POST" data-netlify="true">
   <div class="form-group">
-    <label for="name1" class="w-100">Your name
+    <label for="name1" class="w-50">Your name
     <input type="text" class="form-control" id="name1" aria-describedby="nameHelp" name= "name" placeholder="Enter name" required></label>
   </div>
   <div class="form-group">
-    <label for="email1" class="w-100">Email address
+    <label for="email1" class="w-50">Email address
     <input type="email" name="email" class="form-control" id="email1" aria-describedby="emailHelp" placeholder="Enter email" required></label>
   </div>
   <div class="form-group">
-    <label for="tel1" class="w-100">Phone
+    <label for="tel1" class="w-50">Phone
     <input type="tel" name="phone" class="form-control" id="tel1" placeholder="Phone" max="11"></label>
   </div>
   <div class="form-group">
-    <label for="message1" class="w-100">Message
+    <label for="message1" class="w-50">Message
     <textarea name="message" type="text" class="form-control" id="message1" rows="3" maxlenght="50"></textarea></label>
   </div>
   <div class="form-check">
@@ -34,3 +34,4 @@ eleventyNavigation:
   <br>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
+</div>
