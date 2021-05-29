@@ -20,24 +20,23 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum blandit bibe
 
 <form name="contact" method="POST" data-netlify="true">
   <div class="form-group">
-    <label for="name1">Your name</label>
-    <input type="text" class="form-control" id="name1" aria-describedby="nameHelp" name= "name" placeholder="Enter name" required>
+    <label for="name1">Your name
+    <input type="text" class="form-control" id="name1" aria-describedby="nameHelp" name= "name" placeholder="Enter name" required></label>
   </div>
   <div class="form-group">
-    <label for="email1">Email address</label>
-    <input type="email" name="email" class="form-control" id="email1" aria-describedby="emailHelp" placeholder="Enter email" required>
+    <label for="email1">Email address
+    <input type="email" name="email" class="form-control" id="email1" aria-describedby="emailHelp" placeholder="Enter email" required></label>
   </div>
   <div class="form-group">
-    <label for="tel1">Phone</label>
-    <input type="tel" name="phone" class="form-control" id="tel1" placeholder="Phone" max="11">
+    <label for="tel1">Phone
+    <input type="tel" name="phone" class="form-control" id="tel1" placeholder="Phone" max="11"></label>
   </div>
   <div class="form-group">
-    <label for="message1">Message</label>
-    <textarea name="message" type="text" class="form-control" id="message1" rows="3" maxlenght="50"></textarea>
+    <label for="message1">Message
+    <textarea name="message" type="text" class="form-control" id="message1" rows="3" maxlenght="50"></textarea></label>
   </div>
   <div class="form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
-    <label class="form-check-label" for="exampleCheck1">Check if you are agree to send this data</label>
+    <label class="form-check-label" for="exampleCheck1">Check if you are agree to send this data<input type="checkbox" class="form-check-input" id="exampleCheck1" required></label>
   </div>
   <br>
   <button type="submit" class="btn btn-primary">Submit</button>
