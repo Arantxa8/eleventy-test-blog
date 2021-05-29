@@ -245,3 +245,17 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link:visited {
   color: #aaa;
 }
+.footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  
+  color: white;
+  text-align: center;
+}
+
+body > footer > div{
+  margin: 0;
+}

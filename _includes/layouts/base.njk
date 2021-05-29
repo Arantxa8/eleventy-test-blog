@@ -16,6 +16,7 @@
   </head>
   <body>
     <header>
+      <nav class="navbar navbar-dark bg-light p-4>
       <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
 
       {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
@@ -24,6 +25,7 @@
         <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
       {%- endfor %}
       </ul>
+      </nav>
     </header>
 
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
@@ -34,7 +36,11 @@
       {{ content | safe }}
     </main>
 
-    <footer></footer>
+    <footer class="footer bg-dark w-100 mx-0">
+    <div class="container">
+        <span class="text-white">&copy Arantxa 2021</span>
+      </div>
+    </footer>
 
     <!-- Current page: {{ page.url | url }} -->
     
