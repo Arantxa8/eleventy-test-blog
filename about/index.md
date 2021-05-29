@@ -18,7 +18,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum blandit bibe
 
 <h5>Contact Form</h5>
 
-<form>
+<form name="contact" method="POST" data-netlify="true">
   <div class="form-group">
     <label for="name1">Your name</label>
     <input type="text" class="form-control" id="name1" aria-describedby="nameHelp" placeholder="Enter name">
