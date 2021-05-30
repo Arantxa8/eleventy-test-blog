@@ -1,12 +1,12 @@
 ---
-layout: layouts/post.njk
+layout: layouts/blog.njk
 tags: blog
 title: Just another post FLOWERS
 date: 2021-05-30T14:05:14.680Z
 thumbnail: /images/uploads/pexels-irina-iriser-1408221.jpg
 rating: 4
 ---
-![flowers image](/images/uploads/pexels-irina-iriser-1408221.jpg "Flowers")
+
 
 <!--StartFragment-->
 

@@ -1,12 +1,12 @@
 ---
-layout: layouts/post.njk
+layout: layouts/blog.njk
 tags: blog
 title: New Post
 date: 2021-05-30T13:55:01.346Z
 thumbnail: /images/uploads/pexels-pixabay-210764.jpg
 rating: 5
 ---
-![piano and letters](/images/uploads/pexels-pixabay-210764.jpg "Piano")
+
 
 <!--StartFragment-->
 
